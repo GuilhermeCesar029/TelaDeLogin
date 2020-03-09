@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+
+section#conteudo-view{
+    position: absolute;
+    right: 0;
+    padding: 45px;
+    float: right;
+    width: 300px;
+    height: 86.3%;
+    background: #52ca9b;
+    
+}
+
+section#conteudo-view h1{
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    font: 3em 'Fredoka One' cursive;
+    text-align: center;
+    font-size: 40px;
+    /*color: #f3f3f3;*/
+}
+
+section#conteudo-view label{
+    float: left;
+    width:100%; 
+    font: 1em 'Arial';  
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+section#header input,
+section#footer input{
+    width: 30px;        
+}
+
+section#meio input{
+    float: left;
+    width: 60%;
+    height: 33px;
+    padding: 0 30px;
+    border-radius: 15px;
+    border: 2px solid #52ca9b;
+    font: 1em 'Arial';
+}
+
+section#conteudo-view input[type="reset"]{
+    background: #00ff9c;
+    width: 49%;
+    float: right;
+    height: 45px;
+    text-align: center;
+    font: 1em 'Fredoka One' cursive;
+    font-size: 25px;
+    color: #f3f3f3;
+    border-radius: 25px;
+}
+
+section#conteudo-view input[type="submit"]{
+    background: #00ff9c;
+    width: 49%;
+    float: left;
+    height: 45px;
+    text-align: center;
+    font: 3em 'Fredoka One' cursive;
+    font-size: 25px;
+    color: #f3f3f3;
+    border-radius: 25px;    
+}
+
+

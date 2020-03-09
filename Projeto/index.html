@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Form</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Fredoka+One">
+</head>
+<style>
+    div.background{
+        position: absolute;
+        left: 0;
+        width: calc(100% - 300px);
+        height: 100%;
+        background-image: url(img/layout.webp);
+        background-size: cover;
+    }
+</style>
+
+<body >
+    <div class="background">
+        
+    </div>
+    <section id="conteudo-view" class="login">
+        <form action="" method="POST">
+                <h1>Login</h1>
+                <section id="header">
+                    <label for="sexo">Sexo:</label><br><br>
+                    <input type="radio" checked>Homen 
+                    <input type="radio">Mulher
+                    <input type="radio">Outro <br><br>
+                </section>
+                <section id="meio">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Seu melhor email" required>
+                    
+                    <label for="numero">Numero de Telefone</label>
+                    <input type="number" name="numero" placeholder="Telefone" required>
+                    
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </section>
+                <section id="footer">
+                    <label for="pais">País</label>
+                    <select id="pais"> 
+                        <option value="brasil">Brasil</option>
+                        <option value="eua">Estados Unidos</option>
+                        <option value="canada">Canadá</option>
+                        <option value="alemanha">Alemanha</option>
+                    </select><br><br>
+                    <input type="checkbox" required>Eu li e concordo com os termos de uso
+
+                    <br><br><input type="submit" value="Enviar">
+                    <input type="reset" value="Reset"  /><br>
+                </section>
+                
+            </form> 
+    </section>
+</body>
+</html>
